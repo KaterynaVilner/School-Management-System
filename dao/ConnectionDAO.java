@@ -11,7 +11,7 @@ public class ConnectionDAO  {
 	  {
 	     final String  DBURL  = "jdbc:mysql://localhost:3306/usersdb";
 	     final String DBUSERNAME = "root";
-	     final String  DBPASSWORD = "970kaka5167";
+	     final String  DBPASSWORD = "password";
 	     try {
 	        con = DriverManager.getConnection(DBURL, DBUSERNAME, DBPASSWORD);
 	        System.out.println("Connected Database Successfully");
